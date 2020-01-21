@@ -14,11 +14,9 @@ import de.wttconference.backend.model.Attendee;
 import de.wttconference.backend.services.AttendeeService;
 
 @RestController
-@RequestMapping("attendees")
+@RequestMapping("api/attendees")
 public class AttendeeController {
 
-  @PostConstruct
-  public void test() { System.out.println("started");}
    
   private final AttendeeService service;
 

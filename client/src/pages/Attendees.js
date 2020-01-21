@@ -6,7 +6,7 @@ import AttendeeTable from "../components/Tables/AttendeeTable/AttendeeTable";
 import useFetch from "../hooks/useFetch";
 
 export default function Attendees() {
-  const attendees = useFetch("/attendees");
+  const attendees = useFetch("/api/attendees");
 
   return (
     <ContentWrapper>
