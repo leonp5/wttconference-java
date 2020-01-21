@@ -41,7 +41,7 @@ export default function Registration() {
     highschool: "",
     gender: "",
     nutrition: "",
-    else: ""
+    other: ""
   });
 
   function handleChange(event) {
@@ -55,7 +55,7 @@ export default function Registration() {
   function handleSubmit(event) {
     event.preventDefault();
     saveAttendee(attendee);
-    notifyAttendee(attendee);
+    // notifyAttendee(attendee);
     setAttendee({
       name: "",
       address: "",
@@ -65,7 +65,7 @@ export default function Registration() {
       highschool: "",
       gender: "",
       nutrition: "",
-      else: ""
+      other: ""
     });
   }
 
@@ -132,7 +132,7 @@ export default function Registration() {
           />
           <Label>Sonstiges:</Label>
           <TextArea
-            value={attendee.else}
+            value={attendee.other}
             name="else"
             onChange={handleChange}
             placeholder="Deine Nachricht, Anmerkung, etc."
