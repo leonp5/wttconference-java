@@ -1,5 +1,9 @@
 ## WTT Conference
 
+This is a copy of [this](https://github.com/leonp5/wttconference) project.
+
+Here i tried to setup the backend with Java.
+
 "wttConference" is a responsive website for conference of teacher trainees (22-06-2020 - 28-06-2020).
 It shows the conference information, makes a online registration possible and gives the promoters of the conference the possibility to see how many persons have registered.
 

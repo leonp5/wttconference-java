@@ -1,5 +1,5 @@
 export function saveAttendee(attendee) {
-  return fetch(`/api/attendees`, {
+  return fetch(`/attendees`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
